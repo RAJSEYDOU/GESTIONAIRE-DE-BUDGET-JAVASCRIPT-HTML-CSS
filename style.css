@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color: black;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 20%;
+    left: 35%;
+    background-color: grey;
+}
+
+
+/*headContainer*/
+
+.title {
+    margin-left: 40px;
+    color: white;
+}
+
+
+/*positionnement Entete*/
+
+
+/*balance*/
+
+.balance {
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+
+.revenu {
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+.depense {
+    position: absolute;
+    left: 70%;
+    top: 23%;
+}
+
+
+/*budget Body*/
+
+
+/* calss active */
+
+.active {
+    font-size: 16px;
+    color: blue;
+    background-color: yellow;
+}
+
+.budgetBody {
+    margin-top: 40px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20% 20% 0% 0%;
+    width: 400px;
+    height: 350px;
+}
+
+
+/* menu depense & revenue */
+
+.menu a {
+    color: aqua;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.menu {
+    margin-left: 35px;
+}
+
+
+/* container depense Input et show */
+
+.contentItemDepense {
+    margin-right: 20px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.contentItemRevenue {
+    margin-right: 20px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.contentItemAll {
+    margin-right: 20px;
+    width: 400px;
+    height: 200px;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+
+/* input */

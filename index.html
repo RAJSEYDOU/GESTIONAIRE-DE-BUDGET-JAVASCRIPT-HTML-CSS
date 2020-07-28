@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Budget Projet</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="Hcontainer">
+            <!-- TITRE -->
+            <h2 class="title"> budget <b> TAKECARE</b>
+            </h2>
+            <!-- BALANCE & TOTAL REVENU & TOTAL DEPENSES -->
+
+
+            <!--Balance  -->
+            <div class="balance" style="font-size: 18px">
+
+                <div class="balance-value">
+                    <div class="balance-title">
+                        <h4 style="font-size: 22px;"> balance</h4>
+                    </div>
+                    <span class="balance-Inner" style="margin-left: 15px; width: 60px;height:40px;border:1px solid beige; font-size: 14px ;font-weight: bold ;">0  FCFA</span>
+                </div>
+
+
+            </div>
+            <!--Revenu  -->
+            <div class="revenu" style="font-size: 18px">
+                <div class="revenu-title">
+                    <h4 style="font-size: 22px;">revenu</h4>
+                </div>
+                <div class="revenu-value">
+                    <span class="revenue-Inner" style="margin-left: 15px; font-size: 14px ;font-weight: bold ;">0  FCFA</span>
+                </div>
+
+
+            </div>
+            <!--Depense -->
+            <div class="depense" style="font-size: 18px">
+                <div class="depense-title">
+                    <h4 style="font-size: 22px;"> depense</h4>
+                </div>
+                <div class="depense-value" style="text-align: center;">
+                    <span class="depense-Inner" style="margin-left: 15px; font-size: 14px ;font-weight: bold ;">0  FCFA</span>
+                </div>
+            </div>
+        </div>
+        <!-- body -->
+        <div class="budgetBody ">
+
+            <div class="menu"> <a href="#" class="btnDepense">DEPENSES</a> <a href="#" class="btnRevenu">REVENUES</a><a href="#" class="btnAll active">ALL</a></div>
+
+            <!-- DEPENSES -->
+            <div class="contentItemDepense contentPosition" style="display: none;">
+                <ul class="contentItemDepenseP">
+
+                </ul>
+
+                <div style="margin-top: 160px;">
+                    <input type="text" id="CtiDName" name="name" value="" placeholder="TYPE DEPENSE">
+                    <input type="text" id="CtiDPrix" name="prix" value="" placeholder="MONTANT DEPENSE">
+                    <img src="./Image/add1.ico" alt="" width="40px" height="15px">
+                </div>
+
+
+            </div>
+            <!-- REVENUE -->
+            <div class="contentItemRevenue contentPosition " style="display: none;">
+                <ul class="contentItemRevenueP ">
+
+                </ul>
+                <div style="margin-top: 160px;">
+                    <input type="text" id="CtiRName" name="name" value="" placeholder="TYPE REVENUE">
+                    <input type="text" id="CtiRPrix" name="prix" value="" placeholder="MONTANT REVENUE">
+                    <img src="./Image/add1.ico" alt="" width="40px" height="15px">
+                </div>
+
+
+            </div>
+            <!-- ALL-->
+            <div class="contentItemAll  contentPosition" style="">
+                <ul class="contentItemAllP  " style="color:white">
+
+
+                </ul>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
